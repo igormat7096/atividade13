@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-
+ import os 
  from calcularadora import exebir_menu
  from calcularadora import calcular_potencia
  from calcularadora import calcular_raiz
@@ -10,6 +10,8 @@ while True:
      print(f"{nome} o que vc deseja fazer")
      exebir_menu()
      opcao = input("Opção desejada: ")
+
+     os.system("cls")
  
      match opcao:
         
