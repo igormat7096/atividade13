@@ -24,6 +24,7 @@ while True:
             continue
             
         case "3":
+          print("Obrigado volte sempre!")
             break
         case _:
             print("Opção inválida.")
